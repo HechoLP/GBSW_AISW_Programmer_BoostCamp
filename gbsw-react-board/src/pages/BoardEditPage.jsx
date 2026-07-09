@@ -25,7 +25,7 @@ const BoardEditPage = ({ boards, onUpdate }) => {
             }
         } catch {
             console.log(error)
-        }
+        }q
 
         onUpdate({ id: board.id, title, content, author });
         navigate("/")
